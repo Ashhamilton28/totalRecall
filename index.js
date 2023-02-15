@@ -202,17 +202,210 @@ const e = 'Kevin';
 
 // For numbers divisible by both three and five, be sure your code prints both messages
 
+// for (let i = 1; i <= 100; i++) {
+//     if(i % 3 === 0 && i % 5 === 0)
+//     console.log(`${i} I found a number. High five! I found a number. Three is a crowd `)
+//     else if (i % 5 === 0)
+//         console.log(`${i} I found a number. High five! `)
+//     else if (i % 3 === 0)
+//         console.log(`${i} I found a number. Three is a crowd`)
+//     else console.log(i)
+// }
+
+
+
+
+
 // D. Savings account
-//_____________________________________________________________
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// Check your work! Your bank_account should have $55 in it.
+// let bank_account=0;
+// for (let i=1; i<=10; i++){
+//     bank_account+=i
+//     console.log(bank_account)
+// }
+//for loops- you know how many loops
+//while
 
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// Check your work! Your bank_account should have $10,100 in it.
+// let bank_account=0;
+// for(let i=1; i<=100; i++){
 
-
-
-
-
+//     bank_account+=i*2
+//     console.log(bank_account)
+// }
 
 
 // III. Arrays & Control Flow
+//A
+// What are the things in an array called?elements
+
+// Do Arrays guarantee those things will be in order?yes and indexed
+
+// What real-life thing could you model with an array?
+// lists of items:candy
+
+
+
+
+// B. Create an array that contains three quotes and store it in a variable called quotes
+// let quotes =["Elevation requires separation", "The world is grand, awfully big and astonishingly beautiful, frequently thrilling. But I love New York", "There is a past version of you that is proud of how far you have come "]
+
+//C
+// const randomThings =[1, 10, "Hello", true]
+
+// How do you access the 1st element in the array?
+// console.log(randomThings[0])
+
+// Change the value of "Hello"to "World"
+// console.log(randomThings.splice(2,1,"World"))
+
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log()
+// console.log(randomThings)
+
+
+
+//D. Change Values
+
+// const ourClass= ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+
+// What would you write to access the 3rd element of the array?
+
+// console.log(ourClass[2])
+
+// Change the value of "Github" to "Octocat"
+// console.log(ourClass.splice(4,1,"Octocat"))
+// console.log(ourClass)
+
+// Add a new element, "Cloud City" to the array
+
+// console.log(ourClass.push("Cloud City"))
+// console.log(ourClass)
+
+
+//E. Mix it up
+// const myArray = [5,10,500,20]
+
+// Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+// console.log(myArray.push("Aegon", "Ashley"))
+// console.log(myArray)
+
+// Remove the 5 from the beginning of the array.
+// console.log(myArray.shift())
+// console.log(myArray)
+
+// Add the string "Bob Marley"to the beginning of the array.
+// console.log(myArray.unshift("Bob Marley"))
+// console.log(myArray)
+
+// Remove the string of your choice from the end of the array.
+// console.log(myArray.pop())
+// console.log(myArray)
+
+
+// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+
+// console.log(myArray.reverse())
+
+// F.Biggie Smalls
+
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s big number if the number is greater than or equal to 100.
+// let integer = 88
+// if(integer < 100){
+//     console.log("little number")
+// }else if(integer>=100){
+//     console.log("Big number")
+// }
+
+
+
+// G. Monkey in the Middle
+// console.log()little number if the number entered is less than 5.
+// If the number entered is more than 10, log big number.
+// Otherwise, log "monkey"
+// let number = 8;
+// if(number<5){
+//     console.log("little number")
+// }else if(number>10){
+//     console.log("big number")
+// }else{
+//     console.log("monkey")
+// }
+
+// H. Whats in your closet?
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "Per Scholas hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],
+//     [
+// These are Thom's pants
+//   "grey jeans",
+//   "jeans",
+//   "PJs"
+// ],
+// [
+// Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
+
+//   What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
+
+// console.log(kristynsCloset[3]);
+// console.log("Kristyn is rocking that " + kristynsCloset[3] + " today!")
+
+
+// Kristyn just bought some sweet shades! Add "raybans"to her closet after "yellow knit hat".
+// console.log(kristynsCloset.splice(6,0,"raybans"))
+// console.log(kristynsCloset)
+
+
+// Kristyn spilled coffee on her hat... modify this item to read "stained knit hat"instead of yellow.
+
+// console.log(kristynsCloset.splice(5,1,"stained knit hat"))
+// console.log(kristynsCloset)
+
+// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirtsarray.
+
+// console.log(thomsCloset[0][0])
+
+
+// In the same way, access one item from Thom's pants array.
+// console.log(thomsCloset[1][0])
+
+// Access one item from Thom's accessories array.
+// console.log(thomsCloset[2][2])
+
+// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+
+// console.log(`Thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][0]} and ${thomsCloset[2][2]}!`)
+
+
+// Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+// console.log(thomsCloset.splice([1][2]), 1, "Footie Pajamas")
+
+
+
+
 // A. Talk about it:
 // B. Easy Does It
 // C. Accessing elements
@@ -223,10 +416,61 @@ const e = 'Kevin';
 // H. What's in Your Closet?
 //_____________________________________________________________
 // IV. Functions
-// A.
-// B.
-// C.
-// D.
+// A. printGreeting
+
+
+
+
+// function printGreeting(name) {
+
+//     console.log(`Hello ${name}`)
+// }
+
+// printGreeting("Ashley");
+// printGreeting("Jennifer");
+
+
+
+// B. printCool
+// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
+
+// function printCool(name) {
+//     console.log(`${name} is cool`)
+// }
+// printCool("Ashley")
+// printCool("Jennifer")
+
+
+// C. calculateCube
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number
+
+
+// function calculateCube(a) {
+//     return a * a * a
+// }
+// console.log(calculateCube(11, 11, 11))
+
+// D.isVowel
+// Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case. Test your function on every vowel and make sure it's working. In general, when you write functions, take a minute to test them with different values to make sure they behave the way you want.
+
+// function isVowel(a)
+//     if(isVowel.toLowerCase() === "a"|| isVowel.toLowerCase() === "e"|| isVowel.toLowerCase() === "i"|| isVowel.toLowerCase() ===  "o"||isVowel.toLowerCase() ===  "u"){
+//         console.log(true)
+//     }
+
+
+    // function isCharAVowel(char){
+        // char = char.toLowerCase()
+    //     if(char.toLowerCase() ==="a" ||char.toLowerCase() === "e" || char.toLowerCase() ==="i" ||char.toLowerCase() === "o" ||char.toLowerCase() === "u" ){
+    //         return true
+    //     }
+    //     else {
+    //         return false
+    //     }
+    // }
+    // console.log(isCharAVowel("A"))
+
+
 // E.
 // F.
 // G.

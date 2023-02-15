@@ -2,10 +2,10 @@
 
 
 /*
-	Remember!!! Once you’ve completed a problem,
-	COMMENT OUT YOUR WORK before moving on to the next one.
-	This makes it easier to read and debug the current 
-	Solution you are working on.
+    Remember!!! Once you’ve completed a problem,
+    COMMENT OUT YOUR WORK before moving on to the next one.
+    This makes it easier to read and debug the current 
+    Solution you are working on.
 */
 
 
@@ -109,30 +109,99 @@ const e = 'Kevin';
 // D. The Farm
 // Declare a variable animal. Set it to be either "cow" or something else
 // Write code that will print out "mooooo" if the it is equal to cow
-// Change your code so that if the variable animalis anything other than a cow, it will print "Hey! You're not a cow."
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
 // Commit
 
-let animal="Snake";
-if(animal==="Cow"){
-    console.log("mooooo")
-} else if (animal!=="Cow"){
-    console.log("Hey! You're not a cow")
-}
+// let animal="Snake";
+// if(animal==="Cow"){
+//     console.log("mooooo")
+// } else if (animal!=="Cow"){
+//     console.log("Hey! You're not a cow")
+// }
 
 
 
 // E. Driver's Ed
-//_____________________________________________________________
+// Make a variable that holds a person's age; be semantic
+// Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
 
-
+// let age = 14;
+// if(age>= 16){
+//     console.log("Here are the keys!")
+// }else if (age<16){
+//     console.log("Sorry, you're too young.")
+// }
 
 
 
 
 // II. Loops
 // A. The Basics
+// Write a loop that will print out all the numbers from 0 to 10, inclusive
+// for(let i =0; i <=10; i++){
+//     console.log(i);
+// }
+
+
+// Write a loop that will print out all the numbers from 10 up to and including 400
+// for(let i =10; i<=400; i++){
+//     console.log(i);
+// }
+
+
+
+// Write a loop that will print out every third number starting with 12 and going no higher than 4000
+// let i=12
+// while(i <4000){
+//     console.log(i)
+//     i+=3
+// }
+
+
+
 // B. Get even
+// Print out the numbers that are within the range of 1 - 100
+// for(let i=1; i<=100; i++){
+//     console.log(i)
+// }
+
+
+
+// Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
+
+// for(let i = 1; i <= 100; i++){
+//         if(i %2===0)
+//         console.log(`${i} <-- is an even number`)
+// else console.log(i)
+//     }
+
+
+
+
+
 // C. Give me Five
+// For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five
+
+// for(let i = 1; i <= 100; i++){
+//         if(i %5===0)
+//         console.log(`${i} I found a number. High five! `)
+// else console.log(i)
+//     }
+
+
+// Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 5 === 0)
+//         console.log(`${i} I found a number. High five! `)
+//     else if (i % 3 === 0)
+//         console.log(`${i} I found a number. Three is a crowd`)
+//     else console.log(i)
+// }
+
+
+
+// For numbers divisible by both three and five, be sure your code prints both messages
+
 // D. Savings account
 //_____________________________________________________________
 

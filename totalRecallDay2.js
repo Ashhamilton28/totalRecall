@@ -54,17 +54,52 @@
 ////////////////////////////////
 // Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase()on each of them and print out the result.
 
-let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
-for(let ninjaTurtle of ninjaTurtles){
-    console.log(ninjaTurtle.toUpperCase())
-}
+// let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+// for(let ninjaTurtle of ninjaTurtles){
+//     console.log(ninjaTurtle.toUpperCase())
+// }
 
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+console.log(favMovies[8])
+
+favMovies.sort();
+console.log(favMovies.sort())
+// .sort put the movies in alphabetical order
+
+favMovies.pop()
+console.log(favMovies.pop)
+
+favMovies.push("Guardians of the Galaxy")
+console.log(favMovies)
+
+favMovies.reverse()
+console.log(favMovies)
+
+favMovies.shift()
+console.log(favMovies)
+
+favMovies.unshift("Smile")
+console.log(favMovies)
+//adds to the front of an array
+
+favMovies.splice(15,1,"Avatar")
+console.log(favMovies)
+
+let favMoviesHalf = favMovies.slice(10,20)
+console.log(favMoviesHalf)
+
+fastAndFurious= favMovies.splice(14,1)
+console.log(fastAndFurious)
+//the value we get for something not in array is 0/
+console.log(favMovies)
 
 
+//12. the variable "favMovies" cant be changed but we can change the contents
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////

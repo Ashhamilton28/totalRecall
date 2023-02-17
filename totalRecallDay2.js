@@ -111,10 +111,10 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 ["Petunia", ["Baked Goods", "Waldo"]]];
 
 
-whereIsWaldo.splice(1,1)
+whereIsWaldo.splice(1, 1)
 console.log(whereIsWaldo)
 
-whereIsWaldo[1][2]="No One"
+whereIsWaldo[1][2] = "No One"
 console.log(whereIsWaldo[1][2])
 console.log(whereIsWaldo)
 
@@ -124,9 +124,28 @@ console.log(whereIsWaldo[2][1][1])
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-for(let i =1; i<=20; i++){
+
+for (let i = 1; i <= 20; i++) {
+
     console.log("Love me, pet me! HSSSSSS!")
+    if (i % 2 === 0) {
+        const randomString = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+ const result = getRandomString(randomString)
+        console.log(result)
+    }
 }
+
+function getRandomString(randomString){
+    const randomIndex= Math.floor(Math.random()*randomString.length)
+    const item = randomString[randomIndex]
+    return item;
+}
+
+ 
+ 
+
+//  if (i % 2 === 0)
+//     let i = math.floor(math.random() * 3)
 
 ////////////////////////////////
 //  Find the Median

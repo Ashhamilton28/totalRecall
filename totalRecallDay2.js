@@ -125,23 +125,17 @@ console.log(whereIsWaldo[2][1][1])
 //  Excited Kitten
 ////////////////////////////////
 
+
+//1
+// const statements = ["...human...why you taking pictures of me?...", "...the catnip made me do it...",  "...why does the red dot always get away..." ]
 // for (let i = 1; i <= 20; i++) {
-
-//     console.log("Love me, pet me! HSSSSSS!")
-//     if (i % 2 === 0) {
-//         const randomString = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
-//  const result = getRandomString(randomString)
-//         console.log(result)
-//     }
+//     console.log("Love me, pet me! HSSSS!")
+//     //checking if current number is even 
+//     if(i%2===0)
+//     console.log(statements[Math.floor(Math.random()*3)])
 // }
-
-// function getRandomString(randomString){
-//     const randomIndex= Math.floor(Math.random()*randomString.length)
-//     const item = randomString[randomIndex]
-//     return item;
-// }
-
-
+// //2
+// console.log(Math.floor(Math.random()*3))
 
 
 ////////////////////////////////
@@ -150,13 +144,20 @@ console.log(whereIsWaldo[2][1][1])
 
 const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12];
 
-function findTheMedian(nums) {
-    const sortNums = nums.sort();
-    const halfNums = nums.length / 2;
-    if (nums.length % 2 !== 0) {
-        return nums[Math.floor(halfNums)]
-    }
-    return (nums[halfNums-1 +nums[halfNums]] / 2);
-}
+// function findTheMedian(nums) {
+//     const sortNums = nums.sort();
+//     const halfNums = nums.length / 2;
+//     if (nums.length % 2 !== 0) {
+//         return nums[Math.floor(halfNums)]
+//     }
+//     return (nums[halfNums-1 +nums[halfNums]] / 2);
+// }
 
-console.log(findTheMedian(nums))
+// console.log(findTheMedian(nums))
+// console.log(nums.length)
+// nums.sort()
+// console.log(nums)
+// const sortNums = nums.sort();
+// const halfNums = Math.ceil(nums.length / 2);
+// console.log(nums[halfNums])
+// console.log(halfNums)

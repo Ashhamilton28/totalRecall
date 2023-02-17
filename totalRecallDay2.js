@@ -124,7 +124,9 @@ console.log(whereIsWaldo[2][1][1])
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-
+for(let i =1; i<=20; i++){
+    console.log("Love me, pet me! HSSSSSS!")
+}
 
 ////////////////////////////////
 //  Find the Median

@@ -630,25 +630,29 @@ console.log(user.friend["purchased"][1])
 
 
 function updateUser() {
-    user.age = ++user.age
+    user.age++
     user.name = user.name.toUpperCase()
 
 }
 
-
-console.log(user)
-console.log(updateUser(user.name))
-console.log(updateUser(user.age))
-
 // Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
 
 function oldAndLoud(person) {
-age= ++age
-theName=theName.toUpperCase
+    person.age++
+    
+    person.name = person.name.toUpperCase()
 }
 
+oldAndLoud(user)
+updateUser(user)
+updateUser(user)
+console.log(user.name)
+console.log(user.age)
 
-console.log(oldAndLoud(user))
+
+
+
+
 //_____________________________________________________________
 
 

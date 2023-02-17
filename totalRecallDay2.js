@@ -63,48 +63,64 @@
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-console.log(favMovies[8])
+// console.log(favMovies[8])
 
-favMovies.sort();
-console.log(favMovies.sort())
+// favMovies.sort();
+// console.log(favMovies.sort())
 // .sort put the movies in alphabetical order
 
-favMovies.pop()
-console.log(favMovies.pop)
+// favMovies.pop()
+// console.log(favMovies.pop)
 
-favMovies.push("Guardians of the Galaxy")
-console.log(favMovies)
+// favMovies.push("Guardians of the Galaxy")
+// console.log(favMovies)
 
-favMovies.reverse()
-console.log(favMovies)
+// favMovies.reverse()
+// console.log(favMovies)
 
-favMovies.shift()
-console.log(favMovies)
+// favMovies.shift()
+// console.log(favMovies)
 
-favMovies.unshift("Smile")
-console.log(favMovies)
+// favMovies.unshift("Smile")
+// console.log(favMovies)
 //adds to the front of an array
 
-favMovies.splice(15,1,"Avatar")
-console.log(favMovies)
+// favMovies.splice(15,1,"Avatar")
+// console.log(favMovies)
 
-let favMoviesHalf = favMovies.slice(10,20)
-console.log(favMoviesHalf)
+// let favMoviesHalf = favMovies.slice(10,20)
+// console.log(favMoviesHalf)
 
-fastAndFurious= favMovies.splice(14,1)
-console.log(fastAndFurious)
+// fastAndFurious= favMovies.splice(14,1)
+// console.log(fastAndFurious)
 //the value we get for something not in array is 0/
-console.log(favMovies)
+// console.log(favMovies)
 
 
 //12. the variable "favMovies" cant be changed but we can change the contents
+
+
+
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+["Lucinda", "Jacc", "Neff", "Snoop"],
+["Petunia", ["Baked Goods", "Waldo"]]];
 
 
+whereIsWaldo.splice(1,1)
+console.log(whereIsWaldo)
+
+whereIsWaldo[1][2]="No One"
+console.log(whereIsWaldo[1][2])
+console.log(whereIsWaldo)
+
+
+
+console.log(whereIsWaldo[2][1][1])
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////

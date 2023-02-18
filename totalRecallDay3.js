@@ -97,3 +97,56 @@ timmy.exercise()
 
 
 
+//Chef Make Dinners
+class Dinner {
+    constructor(appetizer, entree, dessert) {
+        this.appetizer = ""
+        this.entree = ""
+        this.dessert = ""
+
+    }
+}
+
+
+
+class Chef {
+  cookLasagna(){
+    console.log("Mmm. Lasanga!")
+  }
+  cookGumbo(){
+    console.log("Mmm. Gumbo!")
+  }
+  cookPepperSteak(){
+    console.log("Mmm. Pepper Steak!")
+  }
+
+
+}
+
+
+const asha = new Chef ('asha')
+
+asha.cookGumbo
+console.log(asha.cookGumbo)
+asha.cookLasagna
+console.log(asha.cookLasagna)
+asha.cookPepperSteak
+console.log(asha.cookPepperSteak)
+
+
+// class hamster {
+//     constructor(name) {
+//         this.owner = ""
+//         this.name = name
+//         this.price = 15
+//     }
+//     wheelRun() {
+//         console.log('squeak squeak')
+//     }
+//     eatFood() {
+//         console.log('nibble nibble')
+//     }
+//     getPrice() {
+//         return this.price
+//     }
+// }

@@ -236,17 +236,17 @@ made if else statements based of if the animal was a cow or not
 // C. calculateCube
 // used the forumale a*a*a to make function that would calculate the aread of a cube
 
-D. isVowel
-E. getTwoLengths
-F. getMultipleLengths
-G. maxOfThree
-H. printLongestWord
+// !D. isVowel
+// E. getTwoLengths
+// F. getMultipleLengths
+// G. maxOfThree
+// H. printLongestWord
 
-Objects
-A. Make a user object
-B. Update the user
-C. Adding keys and values
-D. Shopaholic!
-E. Object-within-object
-F. Loops
-G. Functions can operate on objects
+// Objects
+// A. Make a user object
+// B. Update the user
+// C. Adding keys and values
+// D. Shopaholic!
+// E. Object-within-object
+// F. Loops
+// G. Functions can operate on objects
